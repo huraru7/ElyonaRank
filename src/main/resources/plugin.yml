@@ -1,0 +1,18 @@
+name: ElyonaRank
+version: 1.0.0
+main: world.elyona.rank.ElyonaRankPlugin
+api-version: "1.21"
+authors: [Elyona World]
+depend: [LuckPerms, ElyonaCore]
+
+commands:
+  rank:
+    description: ランク・経験値を確認する
+    usage: /rank [player]
+  season:
+    description: シーズンを管理する（管理者用）
+    usage: /season <start <name>|end>
+    permission: elyona.admin
+  title:
+    description: 称号を管理する
+    usage: /title [set <id>|clear|grant <player> <id>]

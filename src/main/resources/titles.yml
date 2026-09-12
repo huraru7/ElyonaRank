@@ -1,0 +1,29 @@
+titles:
+  rank_silver:
+    display: "銀の探索者"
+    description: "Silverランクに到達した証"
+    source: RANK
+  rank_gold:
+    display: "黄金の戦士"
+    description: "Goldランクに到達した証"
+    source: RANK
+  rank_platinum:
+    display: "白金の勇者"
+    description: "Platinumランクに到達した証"
+    source: RANK
+  rank_diamond:
+    display: "輝きの覇者"
+    description: "Diamondランクに到達した証"
+    source: RANK
+  rank_legend:
+    display: "伝説の勇者"
+    description: "Legendランクに到達した者"
+    source: RANK
+  season_legend:
+    display: "Season {season} Legend"
+    description: "シーズン{season}でLegendに輝いた者"
+    source: SEASON
+  territory_owner:
+    display: "テリトリーの覇者"
+    description: "テリトリーを所有する者"
+    source: SPECIAL
